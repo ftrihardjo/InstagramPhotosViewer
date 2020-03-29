@@ -1,5 +1,4 @@
 FROM python:3
-RUN git clone https://github.com/ftrihardjo/InstagramPhotosViewer.git
 RUN pip install requests
 RUN pip install selenium
 RUN pip install pillow
